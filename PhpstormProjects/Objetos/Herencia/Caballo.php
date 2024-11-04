@@ -9,6 +9,11 @@ class Caballo extends Animal{
     }
 
     public function saludo(){
-        echo "Hola soy un caballo";
+        return "Hola soy un caballo";
+    }
+
+    public function datos()
+    {
+        return parent::datos(). "<br> Rareza: ".$this->rareza;
     }
 }

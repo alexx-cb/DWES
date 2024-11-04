@@ -9,4 +9,8 @@ class Animal{
         $this->edad = $edad;
         $this->velocidad = $velocidad;
     }
+
+    public function datos(){
+        return "Nombre: ". $this->nombre . "<br> Edad: " . $this->edad . "<br> Velocidad: " . $this->velocidad;
+    }
 }
