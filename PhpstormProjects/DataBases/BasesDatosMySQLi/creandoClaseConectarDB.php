@@ -7,8 +7,8 @@
 <body>
 
 <?php
-require_once ('autoloader.php');
-require_once ('configDB.php');
+require_once('autoloader.php');
+require_once('configDB.php');
 
 error_reporting(0);
 mysqli_report(MYSQLI_REPORT_OFF);
