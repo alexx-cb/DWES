@@ -9,7 +9,8 @@
 <?php
 require_once('autoloader.php');
 require_once('config/config.php');
-use Lib\BaseDatos;
+
+use PhpstormProjects\Agenda\Lib\BaseDatos;
 
 try {
     $bd = new BaseDatos();
